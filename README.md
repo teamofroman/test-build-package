@@ -36,4 +36,4 @@ src                                 папка с кодом ВСЕГО прое
 `pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ your-package`
 
 Так же в файле `src/package/requirements.txt` все пакеты должны быть **УКАЗАНЫ С ВЕРСИЯМИ**, иначе pip тянуть их будет
-с https://test.pypi.org, а не с осноного репозитория.
+с https://test.pypi.org, а не с основного репозитория.

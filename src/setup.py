@@ -34,8 +34,8 @@ if __name__ == "__main__":
     setup(
         name="test_package_test_demo",
         version=os.getenv("PACKAGE_VERSION", "0.0.1"),
-        author="RSATeam",
-        author_email="rsateam@yandex.ru",
+        author="Author",
+        author_email="author@yandex.ru",
         description="Тестовый пакет",
         long_description=Path("package/README.md").read_text(),
         long_description_content_type="text/markdown",
